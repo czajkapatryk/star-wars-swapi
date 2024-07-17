@@ -6,6 +6,7 @@ import nav from './plugins/nav'
 import mobile from './plugins/mobile'
 
 import 'vuetify/styles'
+import './assets/import.css'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 

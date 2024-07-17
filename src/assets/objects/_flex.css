@@ -1,0 +1,127 @@
+.o-flex {
+    display: flex !important;
+}
+
+.o-flex--direction-column {
+    flex-direction: column !important;
+}
+
+.o-flex--direction-column-reverse {
+    flex-direction: column-reverse !important;
+}
+
+.o-flex--direction-row {
+    flex-direction: row !important;
+}
+
+.o-flex--direction-row-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.o-flex--wrap {
+    flex-wrap: wrap !important;
+}
+
+.o-flex--no-wrap {
+    flex-wrap: nowrap !important;
+}
+
+.o-flex--center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.o-flex--right {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}
+
+.o-flex--space-around {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.o-flex--space-evenly {
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.o-flex--space-between {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.o-flex--shrink {
+    flex: 0 1;
+}
+
+.o-flex--grow {
+    flex: 1 0;
+}
+
+.o-flex__grow--full {
+    flex: 1 1 100%;
+}
+
+.o-flex__horizontal--center {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.o-flex__horizontal--right {
+    display: flex !important;
+    justify-content: right !important;
+}
+
+.o-flex__horizontal--left {
+    display: flex !important;
+    justify-content: left !important;
+}
+
+.o-flex__vertical--center {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.o-flex__vertical--bottom {
+    display: flex !important;
+    align-items: flex-end !important;
+}
+
+.o-flex__vertical--top {
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+.o-flex__vertical--stretch {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.o-flex__vertical--base {
+    display: flex !important;
+    align-items: baseline !important;
+}
+
+.o-flex__gap--xxl {
+    gap: var(--gap--xxl);
+}
+
+.o-flex__gap--xl {
+    gap: var(--gap--xl);
+}
+
+.o-flex__gap {
+    gap: var(--gap);
+}
+
+.o-flex__gap--xs {
+    gap: var(--gap--xs);
+}
+
+.o-flex__gap--xxs {
+    gap: var(--gap--xxs);
+}
+

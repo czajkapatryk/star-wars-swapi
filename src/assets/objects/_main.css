@@ -1,0 +1,8 @@
+.o-main, .o-main--mini {
+    max-height: 100dvh;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    background: var(--secondary) !important;
+}

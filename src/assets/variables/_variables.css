@@ -1,0 +1,41 @@
+:root {
+  --font_size--xxxxl: 4rem;
+  --font_size--xxxl: 3rem;
+  --font_size--xxl: 2rem;
+  --font_size--xl: 1.25rem;
+  --font_size: 1rem;
+  --font_size--xs: 0.875rem;
+  --font_size--xxs: 0.8rem;
+
+  --primary: #ffe300;
+  --lt-primary: #ffe30070;
+  --lts-primary: #ffe30010;
+  --primary-variant: #e30075;
+  --lt-primary-variant: #e3007570;
+  --lts-primary-variant: #e3007510;
+  --secondary: #000000;
+  --secondary-variant: #212121;
+  --tertiary: #ffffff;
+  --muted: #717171;
+
+  --padding-xxxl: 3rem;
+  --padding-xxl: 2rem;
+  --padding-xl: 1.5rem;
+  --padding: 1rem;
+  --padding-xs: 0.5rem;
+  --padding-xxs: 0.3rem;
+
+  --margin-xxxl: 3rem;
+  --margin-xxl: 2rem;
+  --margin-xl: 1.5rem;
+  --margin: 1rem;
+  --margin-xs: 0.5rem;
+  --margin-xxs: 0.3rem;
+
+  --gap--xxl: 2rem;
+  --gap--xl: 1.5rem;
+  --gap: 1rem;
+  --gap--xs: 0.5rem;
+  --gap--xxs: 0.3rem;
+
+}
