@@ -1,0 +1,5 @@
+{
+  "customSyntax": "postcss-html",
+  "rules": {},
+  "extends": ["stylelint-config-standard", "stylelint-config-recommended-vue"]
+}
