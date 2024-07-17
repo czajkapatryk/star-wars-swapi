@@ -1,4 +1,4 @@
-# Star wars api integration's application
+# Star wars api integration webapp
 
 ## How to run project
 ___
@@ -12,4 +12,4 @@ npm run dev
 ````
 ___
 
-# Patryk Czajka
+# author: Patryk Czajka
