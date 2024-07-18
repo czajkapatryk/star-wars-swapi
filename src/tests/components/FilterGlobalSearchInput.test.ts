@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest'
 import { mount } from '@vue/test-utils'
 import FilterGlobalSearchInput from '../../components/modules/filter/atoms/FilterGlobalSearchInput.vue'
 
-vi.mock('~/filters/commands/debounce', () => ({
+vi.mock('~/features/filters/commands/debounce', () => ({
   default: (fn: Function) => fn,
 }))
 

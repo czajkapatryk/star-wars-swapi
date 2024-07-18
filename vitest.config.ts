@@ -30,7 +30,8 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, 'src'),
       '~/': path.resolve(__dirname, 'src'),
-      '~/filters/commands/debounce': '/src/filters/commands/debounce.ts',
+      '~/features/filters/commands/debounce':
+        '/src/features/filters/commands/debounce.ts',
       '~/components': '/src/components',
       'vuetify/styles': 'vuetify/lib/styles/main.css',
     },

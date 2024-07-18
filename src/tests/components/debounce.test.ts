@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import debounce from '../../filters/commands/debounce'
+import debounce from '../../features/filters/commands/debounce'
 
 describe('debounce', () => {
   it('should debounce a function', () => {

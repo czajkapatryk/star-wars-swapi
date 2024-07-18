@@ -12,7 +12,7 @@
 
 <script lang="ts" setup>
 import { computed, PropType, ref, watch } from 'vue'
-import debounce from '~/filters/commands/debounce'
+import debounce from '@/features/filters/commands/debounce'
 
 const props = defineProps({
   modelValue: {
