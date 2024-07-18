@@ -28,6 +28,7 @@
     font-size: 124px !important;
     right: -0.25rem;
     bottom: -0.25rem;
+    opacity: 0.2;
 }
 
 .c-data-card__pagination {
