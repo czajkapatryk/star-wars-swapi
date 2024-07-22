@@ -35,10 +35,11 @@ const paginationOptions = reactive<DataPaginationInterface>({
 const fetchData = async () => {
   loading.value = true
   const query = buildSearchQuery(filterState.searchQuery)
+  const url = query
+    ? `/films?${query}`
+    : `/films?page=${paginationOptions.page}`
   try {
-    const response = await axios.get(
-      `/films?page=${paginationOptions.page}&${query}`,
-    )
+    const response = await axios.get(url)
     films.value = response.data.results
     paginationOptions.itemsLength = response.data.count
     paginationOptions.nextUrl = response.data.next
